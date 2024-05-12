@@ -6,10 +6,9 @@
     border-radius: 5px;
     font-family: Vezitsa;
     background-color: #a3d2d5;
-    
+    transition: background-color 0.3s;
 }
 .btnContainer:hover{
     background-color: #6aa5a9;
-    transition: 0.3s;
     
 }
