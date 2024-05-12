@@ -1,0 +1,11 @@
+@import '../../fonts/fonts.css';
+.headerContent{
+    width: 950px;
+    margin: 0 auto;
+    background-color: #789776;
+    border-radius: 5px;
+
+    text-align: center;
+    font-size: 50px;
+    font-family: Vezitsa;
+}

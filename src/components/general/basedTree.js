@@ -1,26 +1,26 @@
 export function GetBasedTree(){
     const tree={
-        name: 'Root',
+        name: 'Корень дерева',
         id: 1,
         children: [
             {
-                name: 'node 1',
+                name: 'узел 1',
                 id: 2,
                 children: [
                     {
-                        name: 'node 2',
+                        name: 'узел 2',
                         id: 4,
                         children: []
                     },
                     {
-                        name: 'node 3',
+                        name: 'узел 3',
                         id: 5,
                         children: []
                     }
                 ]
             },
             {
-                name: 'node 4',
+                name: 'узел 4',
                 id: 3,
                 children: []
                 

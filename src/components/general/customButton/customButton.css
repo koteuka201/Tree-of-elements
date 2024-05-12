@@ -1,0 +1,15 @@
+@import '../../../fonts/fonts.css';
+.btnContainer{
+    font-size: 20px;
+    margin-left: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Vezitsa;
+    background-color: #a3d2d5;
+    
+}
+.btnContainer:hover{
+    background-color: #6aa5a9;
+    transition: 0.3s;
+    
+}

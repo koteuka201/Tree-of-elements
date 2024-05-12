@@ -1,0 +1,19 @@
+@import '../../fonts/fonts.css';
+.nodeContainer{
+    position: relative;
+    margin-left: 40px;
+    font-family: Vezitsa;
+    font-size: 20px;
+    cursor: pointer;
+}
+.node {
+    display: inline-block;
+}
+.node:hover{
+    font-size: 22px;
+}
+.nodeActive{
+    font-size: 24px;
+    color: #d28a7c;
+    
+}
