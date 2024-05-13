@@ -29,6 +29,7 @@ export const TreeAction=()=>{
 
     const handleDeleteNode=()=>{
         if (selectedNode!=null && selectedNode.id!=1){
+            
             deleteNode(treeData, selectedNode.id)
             setSelectedNode(null)
             setNewNodeName('')
@@ -73,8 +74,8 @@ export const TreeAction=()=>{
                 <CustomButton handleFunction={handleResetTree} name={'Сбросить дерево'}/>
             </header>
             <div className="content">
-                
-                <div className={`rootStyle ${selectedNode.name === treeData.name ? 'rootStyleActive' : ''}`} onClick={()=>setSelectedNode(treeData)}>{treeData.name}</div>
+                {console.log(treeData.name)}
+                <div className={`rootStyle ${selectedNode && selectedNode.name === treeData.name ? 'rootStyleActive' : ''}`} onClick={()=>setSelectedNode(treeData)}>{treeData.name}</div>
                 <BuildTree node={treeData} setSelectedNode={setSelectedNode} setNewNodeName={setNewNodeName} selectedNode={selectedNode}/>
                 
                 
